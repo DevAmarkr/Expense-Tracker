@@ -1,0 +1,56 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+  background-color: #222831;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+#IncomeExpense {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+#IE_conatiner {
+  min-width: 40rem;
+  background-color: #dddddd;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.select {
+  width: 20rem;
+}
+.inputNumber {
+  display: block;
+  width: 20rem;
+  margin-top: 5px;
+}
+.list {
+  background: #212020;
+  font-size: 1rem;
+  margin-top: 2rem;
+  color: #d0cdcd;
+  border-right: 9px solid #e2c20b;
+  padding: 5px;
+}
+.text {
+  margin-top: 5px;
+  font-weight: 600;
+}
+.button {
+  margin-top: 5px;
+}
+.listDataContainer {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  color: #e2c20b;
+  font-weight: 600;
+}
+.header {
+  color: #e2c20b;
+}
